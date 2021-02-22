@@ -1,1 +1,5 @@
-# bayesian-ML-Diabetes
+This project is about using Bayesian classifiers, a type of machine-learning algorithm, to classsify if patients are diabetic and at risk of death. This nice thing aboutt he data table provided in the repo is that ost of the attributes (columns of data) have Yes/No answers. So in a way, the data is almost a type of survey. 
+
+There are many methods that can be used, random forest decision tree, neural networks, logistic regression. Bayesian classifiers are thebest classifier, but computationally, while they are accurate, might not match up to a state-of-art algoirthm. HOWEVER, the decision that bayesian classifiers make can be interpreted pretty easily, unlike say deep learning, logistic regression or a random forest. (A decision tree's decision can be interpreted but 1 decision tree by itself is not very accurate because it overfits a lot.)
+
+The machine learning in this project starts out by selecting the features that depend the most on the classification label (1=patient survival, 0=death of patient). This type of feature selection is done by either chi-squared test or mutual-information test in scikit learn. 
